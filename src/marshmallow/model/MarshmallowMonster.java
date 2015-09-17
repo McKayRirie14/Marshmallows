@@ -26,7 +26,27 @@ public class MarshmallowMonster
 		
 	public String toString()
 	{
-		String monster = "This monster has " + monsterEyes + "eyes, and its' name is " + monsterName; 
+	//Getters & Setters
+	public String getMonsterName()
+	{
+		return monsterName;
+	}
+	
+	public int getMonsterEyes()
+	
+	
+	
+	
+	public int getMonsterNoses()
+	{
+		return monsterNoses;
+	}
+	
+	public void setMonsterName(String monsterName)
+	{
+		this.monsterName = monsterName; 
+	}
+	String monster = "This monster has " + monsterEyes + "eyes, and its' name is " + monsterName; 
 		
 		return monster; 
 	}
