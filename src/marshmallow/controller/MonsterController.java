@@ -28,8 +28,8 @@ public class MonsterController
 	public void start () 
 	{
 		myOutput.displayMonsterInfo(smickMonster.toString());
-		askQuestions();
-		myOutput.displayMonsterInfo("New Monster Info" + smickMonster.toString()); 
+		makeUserMonster(); 
+		myOutput.displayMonsterInfo("New Monster Info" + userMonster.toString()); 
 	}
 	
 	private void askQuestions()
