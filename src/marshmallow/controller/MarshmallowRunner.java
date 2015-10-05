@@ -1,12 +1,14 @@
 package marshmallow.controller;
 
-import marshmallows.model.MarshmallowMonsters;
+import marshmallow.model.MarshmallowMonster;
 
 public class MonsterController
+{
 
-	private MarshmallowMonster smickMonster
+	private MarshmallowMonster smickMonster;
 	
 	public MonsterController()
 	{
-		int eyes = 3.5;
+		int eyes = 5;
 	}
+}

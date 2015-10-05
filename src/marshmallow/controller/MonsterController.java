@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class MonsterController
 {
 	private MarshmallowMonster smickMonster;
-	private MarshmallowMonster userMonseter;
 	private MarshmallowOutput myOutput; 
 	private Scanner monsterScanner;
 	
@@ -28,8 +27,7 @@ public class MonsterController
 	public void start () 
 	{
 		myOutput.displayMonsterInfo(smickMonster.toString());
-		makeUserMonster(); 
-		myOutput.displayMonsterInfo("New Monster Info" + userMonster.toString()); 
+		myOutput.displayMonsterGUI(smickMonster.toString());
 	}
 	
 	private void askQuestions()
@@ -78,7 +76,7 @@ public class MonsterController
 			userNoseCount = monsterScanner.nextInt();
 			System.out.println("How much ir does your monster have? Type in a floating point or decimal number");
 			userHair = monsterScanner.nextDouble();
-			System.out.println(How many legs??????);
+			System.out.println("How many legs??????");
 			userLegs = monsterScanner.nextDouble();
 			System.out.println("Does it have a bellybutton? Type true r false");
 			userBellyButton = monsterScanner.nextBoolean();
